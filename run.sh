@@ -5,8 +5,8 @@
 
 # Conflict identification
 # -----------------------
-# python main.py data/isca2017db-data.json data/isca2017db-pcinfo.csv data/institutions.csv mark-collaborators > results/step1_pcconflicts
-# python main.py data/isca2017db-data.json data/isca2017db-pcinfo.csv data/institutions.csv find-conflicts
+python main.py data/isca2017db-data.json data/isca2017db-pcinfo.csv data/institutions.csv mark-collaborators > results/step1_pcconflicts
+python main.py data/isca2017db-data.json data/isca2017db-pcinfo.csv data/institutions.csv find-conflicts
 
 # PC/paper partitioning
 # ---------------
